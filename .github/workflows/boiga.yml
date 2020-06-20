@@ -3,7 +3,7 @@ name: Testing boiga
 on: [push]
 
 jobs:
-  build:
+  test:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v1
@@ -21,3 +21,10 @@ jobs:
         pipenv run pytest --cov=boiga tests --cov-report=xml
     - name: Upload coverage to Codecov
       uses: codecov/codecov-action@v1
+    - name: Black Code Formatter
+      uses: lgeiger/black-action@v1.0.1
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Black Code Formatter
+      uses: lgeiger/black-action@v1.0.1

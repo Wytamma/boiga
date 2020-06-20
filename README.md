@@ -1,4 +1,6 @@
 # boiga 🐍
+![](https://github.com/wytamma/boiga/.github/workflows/boiga.yml/badge.svg)
+
 A simple bioinformatics package
 
 ## Examples 
