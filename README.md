@@ -1,6 +1,10 @@
 # pyoinformatics 🐍
-![Testing](https://github.com/Wytamma/pyoinformatics/workflows/Testing%20pyoinformatics/badge.svg)
-![Deploying](https://github.com/Wytamma/pyoinformatics/workflows/Deploying%20pyoinformatics/badge.svg)
+![CI/CD](https://github.com/Wytamma/pyoinformatics/workflows/CI/CD/badge.svg)
+[![codecov](https://codecov.io/gh/Wytamma/pyoinformatics/branch/master/graph/badge.svg)](https://codecov.io/gh/Wytamma/pyoinformatics)
+[![image](https://img.shields.io/github/license/wytamma/pyoinformatics.svg)](https://img.shields.io/github/license/wytamma/pyoinformatics)
+[![black](https://img.shields.io/badge/code%20style-black-000000.svg
+)](https://img.shields.io/badge/code%20style-black-000000.svg)
+
 
 A simple bioinformatics package
 
