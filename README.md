@@ -1,6 +1,6 @@
 # boiga 🐍
 ![Testing](https://github.com/Wytamma/boiga/workflows/Testing%20boiga/badge.svg)
-
+![Deploying](https://github.com/Wytamma/boiga/workflows/Deploying%20boiga/badge.svg)
 
 A simple bioinformatics package
 
