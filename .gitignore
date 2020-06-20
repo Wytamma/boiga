@@ -2,7 +2,7 @@
 cover/
 build/
 docs/_build
-boiga.egg-info/
+pyoinformatics.egg-info/
 *.pyc
 *.swp
 *.egg

@@ -1,4 +1,4 @@
-from boiga.seq import Seq
+from pyoinformatics.seq import Seq
 
 
 def test_init():
