@@ -39,10 +39,6 @@ for seq in Bio.read_fasta('in.fasta'):
   print(mean(seq.find('ATG')))
 ```
 
-### find the longest 'A' sequence 
-
-
-
 ### ASCI plot the relative nt counts for all the sequences in a file
 ```python
 for seq in Bio.read_fasta('in.fasta'):
