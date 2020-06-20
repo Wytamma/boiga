@@ -6,6 +6,8 @@
 [![PyPI](https://img.shields.io/pypi/v/pyoinformatics)](https://pypi.org/project/pyoinformatics/)
 
 
+`pip install pyoinformatics`
+
 ## Examples 
 
 ### Find the reverse complement of all the sequences in a file:
