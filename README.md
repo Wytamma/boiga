@@ -2,11 +2,9 @@
 ![CI/CD](https://github.com/Wytamma/pyoinformatics/workflows/CI/CD/badge.svg)
 [![codecov](https://codecov.io/gh/Wytamma/pyoinformatics/branch/master/graph/badge.svg)](https://codecov.io/gh/Wytamma/pyoinformatics)
 [![image](https://img.shields.io/github/license/wytamma/pyoinformatics.svg)](https://img.shields.io/github/license/wytamma/pyoinformatics)
-[![black](https://img.shields.io/badge/code%20style-black-000000.svg
-)](https://img.shields.io/badge/code%20style-black-000000.svg)
+[![black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://img.shields.io/badge/code%20style-black-000000.svg)
+[![PyPI](https://img.shields.io/pypi/v/pyoinformatics)](https://pypi.org/project/pyoinformatics/)
 
-
-A simple bioinformatics package
 
 ## Examples 
 
