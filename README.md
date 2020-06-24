@@ -1,5 +1,5 @@
 # pyoinformatics 🐍
-![CI/CD](https://github.com/Wytamma/pyoinformatics/workflows/CI/CD/badge.svg)
+[![CI/CD](https://github.com/Wytamma/pyoinformatics/workflows/CI/CD/badge.svg)](https://github.com/Wytamma/pyoinformatics/actions?query=workflow%3ACI%2FCD)
 [![codecov](https://codecov.io/gh/Wytamma/pyoinformatics/branch/master/graph/badge.svg)](https://codecov.io/gh/Wytamma/pyoinformatics)
 [![image](https://img.shields.io/github/license/wytamma/pyoinformatics.svg)](https://img.shields.io/github/license/wytamma/pyoinformatics)
 [![black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://img.shields.io/badge/code%20style-black-000000.svg)
