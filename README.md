@@ -19,19 +19,14 @@ with open('out.fasta', 'w') as f:
     f.writelines(seq.reverse_complement().to_fasta())
 ```
 
-### Count the number of occurrences of 'ATG' in seq1
+### Count the number of occurrences of 'ATG' in seq object
 ```python
 seq.count('ATG')
 ```
 
-### Count the number of occurrences of 'ATG' in seq1 that differ by <= 1 base.
+### Count the number of occurrences of 'ATG' in seq object that differ by <= 1 base.
 ```python
 seq.count('ATG', 1)
-```
-
-### Find the number of occurrences of 'ATG' or 'AAG' in seq1
-```python
-len(seq1.find('A[AT]G'))
 ```
 
 ### Find the average position of all occurrences of 'ATG' in a fasta file
@@ -39,6 +34,11 @@ len(seq1.find('A[AT]G'))
 from statistics import mean
 for seq in pyo.read_fasta('in.fasta'):
   print(mean(seq.find('ATG')))
+```
+
+### Find the number of occurrences of 'ATG' or 'AAG' in seq object
+```python
+len(seq1.find('A[AT]G'))
 ```
 
 ### ASCI plot the relative nt counts for all the sequences in a file
