@@ -38,6 +38,11 @@ def test_sub():
     seq2 = Seq("TATA")
     assert (seq1 - seq2) == 2
 
+def test_contains():
+    assert Seq('AT') in Seq('ATG')
+    assert 'AT' in Seq('ATG')
+    assert (Seq('ATC') in Seq('ATG')) == False
+
 
 def test_gc():
     seq = Seq("GCAT")
