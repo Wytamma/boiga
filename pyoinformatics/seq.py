@@ -83,6 +83,12 @@ class Seq:
         else:
             raise StopIteration
 
+    def __contains__(self, other):
+        if str(other) in str(self):
+            return True
+        else:
+            return False
+
     @property
     def gc(self) -> float:
         """Return the GC content of the sequence"""
