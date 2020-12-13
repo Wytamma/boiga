@@ -1,4 +1,4 @@
-from pyoinformatics.seq import Seq
+from pyoinformatics.seq import Seq, consensus
 
 
 def test_init():
@@ -58,7 +58,7 @@ def test_consensus():
     seq1 = Seq("GGAATT")
     seq2 = Seq("GTAATT")
     seq3 = Seq("TTTTTT")
-    assert Seq.consensus(seq1, seq2, seq3) == "GTAATT"
+    assert consensus(seq1, seq2, seq3) == "GTAATT"
 
 
 def test_fasta():
