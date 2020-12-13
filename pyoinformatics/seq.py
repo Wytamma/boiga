@@ -25,6 +25,15 @@ UGG W      CGG R      AGG R      GGG G"""
 codons = dict(zip(codon_table.split()[::2], codon_table.split()[1::2]))
 
 
+def consensus(*args):
+    """Return a consensus sequence from n Seq objects."""
+    counts = map(Counter, zip_longest(*args))
+    consensus = ""
+    for c in counts:
+        del c[None]
+        consensus += c.most_common(1)[0][0]
+    return Seq(consensus, args[0].id)
+
 class Seq:
     """Class for nucleotide sequences"""
 
@@ -100,16 +109,6 @@ class Seq:
     def counts(self) -> dict:
         """Return the counts of letters in the sequence"""
         return Counter(self.sequence)
-
-    @classmethod
-    def consensus(cls, *args):
-        """Return a consensus sequence from n Seq objects."""
-        counts = map(Counter, zip_longest(*args))
-        consensus = ""
-        for c in counts:
-            del c[None]
-            consensus += c.most_common(1)[0][0]
-        return Seq(consensus, args[0].id)
 
     def to_fasta(self, line_length: int = 60) -> str:
         formated_sequence = "\n".join(
